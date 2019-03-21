@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Minigolf Graphics Pack/ExampleScene.unity
+  isLoaded: 1
+  isActive: 1
