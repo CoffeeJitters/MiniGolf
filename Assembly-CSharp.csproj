@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameralController.cs" />
+     <Compile Include="Assets\Scripts\Lerping.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Owner/Documents/Unity3D/Mini Golf/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

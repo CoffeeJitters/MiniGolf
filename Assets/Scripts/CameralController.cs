@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameralController : MonoBehaviour { 
+public class CameralController : MonoBehaviour {
+    private Vector3 offset;
     public GameObject player;
-    private Vector3 offset; 
-    
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+
         offset = transform.position - player.transform.position;
     }
 
@@ -18,4 +20,6 @@ public class CameralController : MonoBehaviour {
     {
         transform.position = player.transform.position + offset;
     }
+
+
 }
